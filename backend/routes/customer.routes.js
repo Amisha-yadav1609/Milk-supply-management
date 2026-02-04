@@ -1,3 +1,4 @@
+// Maps HTTP endpoints to controller logic
 const express = require("express");
 const router = express.Router()
 const {createCustomer,getCustomers,updateCustomer} = require("../controllers/customer.controller")
