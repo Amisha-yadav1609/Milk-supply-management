@@ -1,3 +1,4 @@
+// Database connection manager
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
